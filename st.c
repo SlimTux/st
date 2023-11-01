@@ -1048,6 +1048,11 @@ int tisaltscr(void)
 	return IS_SET(MODE_ALTSCREEN);
 }
 
+int tisaltscr(void)
+{
+	return IS_SET(MODE_ALTSCREEN);
+}
+
 void
 tswapscreen(void)
 {
